@@ -158,6 +158,8 @@ export const Default = () => {
   }
 
   return (
-    <DiagramField input={input} />
+    <div style={{ height: '500px' }}>
+      <DiagramField input={input} />
+    </div>
   );
 };
